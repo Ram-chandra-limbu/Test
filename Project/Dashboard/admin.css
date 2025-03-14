@@ -1,0 +1,167 @@
+.navbar{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(227, 227, 230);
+    box-sizing: border-box;
+    /* box-shadow: 10px 10px 10px red; */
+    display: flex; 
+    align-items: center;
+    position: sticky;
+    top: 0;
+   
+}
+
+.navbar a{
+    width:20%;
+    margin-left: 20px;
+}
+
+.brand{
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    color: var(--text-color);
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 1000;
+}
+
+.logo:hover {
+    color: blueviolet;
+    cursor: pointer;
+    transform: scale(1.04);
+}
+
+span {
+    color: red;
+}
+
+.navlist {
+    display: flex;
+}
+
+.tap-bar {
+    width: 100%;
+    height: 6vh;
+    background-color: rgb(214, 219, 219);
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+   
+}
+
+.home{
+    width: 46%;
+    height: 6vh;
+    text-decoration: none;
+    background-color: rgb(252, 250, 250);
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+
+.edit{
+    width: 46%;
+    height: 6vh;
+    text-decoration: none;
+    background-color: rgb(251, 249, 249);
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* --------section1------------ */
+.section1 {
+    width: 100%;
+    height:86vh;
+    background-color: rgb(230, 230, 233);
+    margin-top: 2px;
+    box-shadow: 10px 10px 10px rgb(170, 166, 166);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.section1a{
+    height:66vh;
+    width: 40%;
+    /* background-image: url('../image/skill.jpg'); */
+    background-color: rgb(229, 232, 243);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    border-radius: 4px;
+    box-shadow: 10px 10px 10px rgb(97, 94, 94);
+   
+}
+
+.link-field img{
+    width: 80%;
+    border-radius: 4px;
+    opacity: 00000.1;
+}
+.status{
+    height: 10vh;
+    width: 80%;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
+
+.link{
+    width: 50%;
+    height: 4vh;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+}
+.post-btn1{
+    width: 80%;
+    height: 5vh;
+    font-weight: 700;
+    border: none;
+    color:aliceblue;
+    background-color: blue;
+    border-radius: 4px;
+}
+
+.project-title{
+    width: 80%;
+    height: 5vh;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+}
+
+.link-field{
+    display: flex;
+    gap: 10px;
+    border: none;
+}
+
+
+.section1b{
+    height:66vh;
+    width: 40%;
+    background-color: rgb(229, 232, 243);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    border-radius: 4px;
+    box-shadow: 10px 10px 10px rgb(97, 94, 94);
+}
